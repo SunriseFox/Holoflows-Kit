@@ -10,12 +10,12 @@
     regenerator-runtime "^0.13.2"
 
 "@microsoft/api-documenter@^7.5.8":
-  version "7.5.8"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.5.8.tgz#33717bc46e41497f39c34d16fd8e51fd29551924"
-  integrity sha512-DiT35wkO46FN/aXPWxcPcfMvQYlDEtTmqXXe274obMMKpZai8QElpticatji4lwkVzv1/nFPaaZWEICe/DXDgw==
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.7.0.tgz#79ec968de74bf4cbbbc89fba07b2b2b0b48164eb"
+  integrity sha512-iSrwXku3/65Qo+DvfGpS0sBbi0g0gHxjucWLjBIEXpfK3qucV2al/mcj0RR6kTHRf9LOJrnRmvOoXgjzj85OAQ==
   dependencies:
-    "@microsoft/api-extractor-model" "7.5.5"
-    "@microsoft/node-core-library" "3.17.1"
+    "@microsoft/api-extractor-model" "7.6.0"
+    "@microsoft/node-core-library" "3.18.0"
     "@microsoft/ts-command-line" "4.3.5"
     "@microsoft/tsdoc" "0.12.14"
     colors "~1.2.1"
@@ -28,6 +28,14 @@
   integrity sha512-OovDAQWxGChGDBH10Pf4Y7eJlVhbkCDv37RrKyuMyXurB8MEvZtHABjgknYsZD9MrfRUUvs5X80MIDcM2kSiYw==
   dependencies:
     "@microsoft/node-core-library" "3.17.1"
+    "@microsoft/tsdoc" "0.12.14"
+
+"@microsoft/api-extractor-model@7.6.0":
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.6.0.tgz#0cac9ae4fc94f168166e9383f18b39b6aa0826f8"
+  integrity sha512-7gtxCxUMLDv3k1NE7MCaUaQeAwH5dEt/vjnq22cOUiCfiYOxdrvolab+WIXSNKV6rhe+AnIovR9tkxtxw5OiYA==
+  dependencies:
+    "@microsoft/node-core-library" "3.18.0"
     "@microsoft/tsdoc" "0.12.14"
 
 "@microsoft/api-extractor@^7.5.6":
@@ -49,6 +57,19 @@
   version "3.17.1"
   resolved "https://registry.yarnpkg.com/@microsoft/node-core-library/-/node-core-library-3.17.1.tgz#c82087fefdda3a16c1eb5a70a55c892c6c79612b"
   integrity sha512-SwsOJGefU8Ue5tRePEPq+ukuc7bURhTikuARsTGK8i/m2eVnKLZvUxFWdPxV5ntFqxYQcHr8UEh8EXSu3CiXVQ==
+  dependencies:
+    "@types/node" "8.10.54"
+    colors "~1.2.1"
+    fs-extra "~7.0.1"
+    jju "~1.4.0"
+    semver "~5.3.0"
+    timsort "~0.3.0"
+    z-schema "~3.18.3"
+
+"@microsoft/node-core-library@3.18.0":
+  version "3.18.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/node-core-library/-/node-core-library-3.18.0.tgz#9a9123354b3e067bb8a975ba791959ffee1322ed"
+  integrity sha512-VzzSHtcwgHVW1xbHqpngfn+OS1trAZ1Tw3XXBlMsEKe7Wz7FF2gLr0hZa6x9Pemk5pkd4tu4+GTSOJjCKGjrgg==
   dependencies:
     "@types/node" "8.10.54"
     colors "~1.2.1"
